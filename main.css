@@ -22,11 +22,6 @@ li {
     font-weight: bold;
 }
 
-a {
-    text-decoration: none;
-    color: #494c4e;
-}
-
 header {
     width: 70%;
     margin: 2rem auto;
@@ -37,6 +32,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #494c4e;
 }
 
 .nav-left {
@@ -95,6 +95,52 @@ li a {
 
 li a:hover {
     border-bottom: 2px solid #F6AC00;
+}
+
+.home {
+    margin: 0 auto;
+}
+
+.home>p {
+    width: 40%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 8rem auto;
+}
+
+.home>img {
+    margin-bottom: 3rem;
+}
+
+.about {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.about h3 {
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.about h4 {
+    margin: 1.5rem 0;
+    color: #F6AC00;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.about .info {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.about p:last-child {
+    margin-bottom: 5rem;
+}
+
+.about a {
+    color: #F6AC00;
 }
 
 footer {
