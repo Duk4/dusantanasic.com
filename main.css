@@ -44,32 +44,32 @@ nav {
     height: 4rem;
     width: 4rem;
     border: 0.3rem solid #494c4e;
-}
-
-.nav-left a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow: visible;
+    position: relative;
+    transform:rotate(0deg);
+    transition: transform .4s ease-in-out;
+    flex-shrink: 0;
 }
 
 .nav-left span {
-    flex-grow: 1;
-    display: block;
     font-weight: bold;
     font-size: 1.2rem;
-    padding-top: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transition: transform .4s ease-in-out;
 }
 
 .nav-left:hover {
-        opacity: 1;
-        transform: rotate(-90deg);
-        transition: transform .4s ease-in-out;
+    opacity: 1;
+    transform: rotate(-90deg);
+    transition: transform .4s ease-in-out;
 }
 
 .nav-left:hover span {
-        transform: rotate(90deg);
-        padding-top: 0.1rem;
-        padding-left: 1.55rem;
+    transform: translate(-50%, -50%) rotate(90deg);
+    transform-origin: center;
 }
 
 .nav-right {
