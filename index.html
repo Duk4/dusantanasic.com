@@ -15,6 +15,7 @@
     />
     <link rel="icon" href="img/favicon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css" integrity="sha256-CuUPKpitgFmSNQuPDL5cEfPOOJT/+bwUlhfumDJ9CI4=" crossorigin="anonymous" />
     <link href="main.css" rel="stylesheet" type="text/css">
     <title>Dušan Tanasić</title>
 </head>
@@ -53,7 +54,8 @@
             <h3>About:</h3>
             <p class="info">
                 Currently I'm working in the retail industry, selling electronic devices. I'm looking for a
-                software company to start a career. In my free time I work on my personal projects and write articles for my 
+                software company to start a career, here you can find my <a href="https://duk4.github.io/Portfolio/cv.html" target="_blank">resume</a>. 
+                In my free time I work on my personal projects and write articles for my 
                 <a href="https://dusantanasic-blog.web.app" target="_blank">blog</a>.
                 I am not pursuing freelance work at the moment, but I'd love to get in touch if you need some help.
             </p>
@@ -64,7 +66,66 @@
                 For bigger applications I might use framework, such as React, or many other technologies.
             </p>
         </section>
-
+        <section class="projects" id="projects">
+            <h3>Projects</h3>
+            <div class="project-list">
+                <div class="project">
+                    <div class="laptop-image">
+                        <img src="./img/blog.png" alt="picture of my blog">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Blog</h3><span class="project-date">2020</span>
+                        </div>
+                        <p class="project-info">
+                            I like writing, so this is one way to express myself and enjoy the craft.
+                            This app was built with React, Redux, Firebase and SASS.
+                        </p>
+                        <div class="project-buttons">
+                            <button class="cta-left" onclick="location.href='https://github.com/Duk4/Blog'" type="button">Source code</button>
+                            <button class="cta-right" onclick="location.href='https://dusantanasic-blog.web.app/'" type="button">Visit site</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="laptop-image">
+                        <img src="./img/social.png" alt="picture of my social media examination">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Social Media Examination</h3><span class="project-date">2019</span>
+                        </div>
+                        <p class="project-info">
+                            Web app that get's data from a file, parses it and shows it in user profiles, 
+                            which contains friends, friend of a friend and friends suggestions as well as some personal informations.
+                            This app was built with React and SASS.
+                        </p>
+                        <div class="project-buttons">
+                            <button class="cta-left" onclick="location.href='https://github.com/Duk4/Social-Network-Examination'" type="button">Source code</button>
+                            <button class="cta-right" onclick="location.href='https://boring-euler-edefa8.netlify.com/'" type="button">Visit site</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="laptop-image">
+                        <img src="./img/notes.png" alt="picture of my notes applications">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3 class="project-title">Notes App</h3><span class="project-date">2019</span>
+                        </div>
+                        <p class="project-info">
+                            Classical to-do list application with search bar and pop-up forms. 
+                            This app was built in React, with Hooks. Also, I used SASS on this project.
+                        </p>
+                        <div class="project-buttons">
+                            <button class="cta-left" onclick="location.href='https://github.com/Duk4/Notes-App'" type="button">Source code</button>
+                            <button class="cta-right" onclick="location.href='https://sleepy-euclid-a4b9f6.netlify.com/'" type="button">Visit site</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--

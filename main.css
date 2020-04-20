@@ -22,6 +22,11 @@ li {
     font-weight: bold;
 }
 
+input,
+button {
+    outline: none;
+}
+
 header {
     width: 70%;
     margin: 2rem auto;
@@ -141,6 +146,96 @@ li a:hover {
 
 .about a {
     color: #F6AC00;
+}
+
+.projects {
+    border-top: 1px solid #f0eeee;
+}
+
+.projects>h3 {
+    margin: 5rem auto 2rem auto;
+    font-size: 1.5rem;
+}
+
+.project {
+    padding: 5rem 20%;
+    display: flex;
+    border-bottom: 1px solid #f0eeee;
+}
+
+.laptop-image {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.project-content {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.project-header {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.project-header h3 {
+    font-size: 2rem;
+}
+
+.project-header span {
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    background-color: #F6AC00;
+    height: 1.5rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.project-content p {
+    text-align: left;
+    margin-bottom: 2rem;
+    padding-right: 3rem;
+}
+
+.project-buttons {
+    display: flex;
+    width: 80%;
+}
+
+.project-buttons button {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-right: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta-left {
+    color: #FFFFFF;
+    background-color: #F6AC00;
+    border: 1px solid #F6AC00;
+}
+
+.cta-left:hover {
+    background-color: #e6a100;
+    border: 1px solid #e6a100;
+}
+
+.cta-right {
+    background-color: #FFFFFF;
+    border: 1px solid #F6AC00;
+}
+
+.cta-right:hover {
+    color: #FFFFFF;
+    background-color: #F6AC00;
+    border: 1px solid #F6AC00;
 }
 
 footer {
