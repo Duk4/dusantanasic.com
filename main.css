@@ -107,6 +107,10 @@ li a:hover {
     margin: 0 auto;
 }
 
+.home img {
+    width: 80%;
+}
+
 .home>p {
     width: 40%;
     font-size: 2rem;
