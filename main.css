@@ -23,7 +23,8 @@ li {
 }
 
 input,
-button {
+button,
+textarea {
     outline: none;
 }
 
@@ -113,13 +114,10 @@ li a:hover {
     margin: 8rem auto;
 }
 
-.home>img {
-    margin-bottom: 3rem;
-}
-
 .about {
     width: 40%;
     margin: 0 auto;
+    padding-top: 3rem;
 }
 
 .about h3 {
@@ -236,6 +234,65 @@ li a:hover {
     color: #FFFFFF;
     background-color: #F6AC00;
     border: 1px solid #F6AC00;
+}
+
+.contact-form {
+    width: 25rem;
+    margin: 0 auto;
+    padding: 5rem 0;
+}
+
+.contact-form h3 {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.contact-form label,input,textarea {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: .8rem;
+    color: #F6AC00;
+}
+
+.contact-form input,textarea {
+    padding: 0.5rem 1rem;
+    border: 1px solid #F6AC00;
+    border-radius: 0.5rem;
+}
+
+.send {
+    width: fit-content;
+    margin: 3rem auto 5rem auto;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #F6AC00;
+    border: 1px solid #F6AC00;
+}
+
+.send:hover {
+    background-color: #e6a100;
+    border: 1px solid #e6a100;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact-icons i {
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 footer {
