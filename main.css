@@ -265,6 +265,15 @@ li a:hover {
     border-radius: 0.5rem;
 }
 
+.status {
+    margin-top: 1rem;
+}
+
+.status div {
+    color: red;
+    font-size: 0.8rem;
+}
+
 .send {
     width: fit-content;
     margin: 3rem auto 5rem auto;
