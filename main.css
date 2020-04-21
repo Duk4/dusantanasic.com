@@ -147,7 +147,7 @@ li a:hover {
 }
 
 .about a {
-    color: #F6AC00;
+    font-weight: bold;
 }
 
 .projects {
@@ -306,6 +306,7 @@ li a:hover {
 .contact-icons i {
     flex-grow: 1;
     flex-basis: 0;
+    cursor: pointer;
 }
 
 footer {

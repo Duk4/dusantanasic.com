@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Dušan Tanasić">
-    <meta description="Portfolio website of Frontend Web Developer Dušan Tanasić, based in Belgrade, Serbia." />
+    <meta name="description"
+        content="Portfolio website of Frontend Web Developer Dušan Tanasić, based in Belgrade, Serbia." />
     <meta name="keywords" content="
                 dusan tanasic, dušan tanasić, dušan, tanasić, dusan, tanasic, web, website, web developer, developer,
                 portfolio, projects, blog, contact, about, html, css, js, javascript, react, redux, frontend, front-end,
@@ -39,7 +40,8 @@
                     <a class="list-link" href="#contact">Contact</a>
                 </li>
                 <li class="list-item">
-                    <a class="list-link" href="https://dusantanasic-blog.web.app" target="_blank">Blog</a>
+                    <a class="list-link" href="https://dusantanasic-blog.web.app" target="_blank"
+                        rel="noreferrer">Blog</a>
                 </li>
             </ul>
         </nav>
@@ -48,16 +50,16 @@
     <main>
         <section class="home">
             <p>Hello, my name is Dušan. I am a Front-end Web Developer from Belgrade, Serbia.</p>
-            <img src="./img/working-gear.jpg" alt="Phone, laptop, mouse and glasses.">
+            <img src="./img/working-gear.webp" alt="Phone, laptop, mouse and glasses.">
         </section>
         <section class="about" id="about">
             <h3>About:</h3>
             <p class="info">
                 Currently I'm working in the retail industry, selling electronic devices. I'm looking for a
                 software company to start a career, here you can find my <a
-                    href="https://duk4.github.io/Portfolio/cv.html" target="_blank">resume</a>.
+                    href="https://duk4.github.io/Portfolio/cv.html" target="_blank" rel="noreferrer">resume</a>.
                 In my free time I work on my personal projects and write articles for my
-                <a href="https://dusantanasic-blog.web.app" target="_blank">blog</a>.
+                <a href="https://dusantanasic-blog.web.app" target="_blank" rel="noreferrer">blog</a>.
                 I am not pursuing freelance work at the moment, but I'd love to get in touch if you need some help.
             </p>
             <h3>Service:</h3>
@@ -73,7 +75,7 @@
             <div class="project-list">
                 <div class="project">
                     <div class="laptop-image">
-                        <img src="./img/blog.png" alt="picture of my blog">
+                        <img src="./img/blog.webp" alt="picture of my blog">
                     </div>
                     <div class="project-content">
                         <div class="project-header">
@@ -95,7 +97,7 @@
                 </div>
                 <div class="project">
                     <div class="laptop-image">
-                        <img src="./img/social.png" alt="picture of my social media examination">
+                        <img src="./img/social.webp" alt="picture of my social media examination">
                     </div>
                     <div class="project-content">
                         <div class="project-header">
@@ -120,7 +122,7 @@
                 </div>
                 <div class="project">
                     <div class="laptop-image">
-                        <img src="./img/notes.png" alt="picture of my notes applications">
+                        <img src="./img/notes.webp" alt="picture of my notes applications">
                     </div>
                     <div class="project-content">
                         <div class="project-header">
@@ -156,10 +158,13 @@
                 <button type="submit" class="form submit send">Send</button>
             </form>
             <div class="contact-icons">
-                <a href="https://www.linkedin.com/in/du%C5%A1an-tanasi%C4%87-9ba741127/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
-                <a href="mailto:dusan.tanasic@yahoo.com"><i class="fas fa-paper-plane"></i></a>
-                <a href="https://github.com/Duk4" target="_blank"><i class="fab fa-github"></i></a>
+                <div><i class="fab fa-linkedin" alt="linked in"
+                        onclick="window.open('https://www.linkedin.com/in/du%C5%A1an-tanasi%C4%87-9ba741127/', '_blank'); return false;"></i>
+                </div>
+                <div><i class="fas fa-paper-plane" alt="email"
+                        onclick="location.href='mailto:dusan.tanasic@yahoo.com';"></i></div>
+                <div><i class="fab fa-github" alt="github"
+                        onclick="window.open('https://github.com/Duk4', '_blank'); return false;"></i></div>
             </div>
         </section>
     </main>
