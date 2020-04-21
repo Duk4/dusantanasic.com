@@ -46,36 +46,27 @@ nav a {
 }
 
 .nav-left {
+    font: bold 1.2rem/4rem 'Libre Baskerville', serif;
     display: block;
     height: 4rem;
     width: 4rem;
-    border: 0.3rem solid #494c4e;
-    overflow: visible;
     position: relative;
-    transform:rotate(0deg);
     transition: transform .4s ease-in-out;
-    flex-shrink: 0;
 }
 
-.nav-left span {
-    font-weight: bold;
-    font-size: 1.2rem;
+.nav-left::after {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg);
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: 0.3rem solid #494c4e;
+    content: "";
     transition: transform .4s ease-in-out;
 }
 
-.nav-left:hover {
-    opacity: 1;
+.nav-left:hover::after {
     transform: rotate(-90deg);
-    transition: transform .4s ease-in-out;
-}
-
-.nav-left:hover span {
-    transform: translate(-50%, -50%) rotate(90deg);
-    transform-origin: center;
 }
 
 .nav-right {
