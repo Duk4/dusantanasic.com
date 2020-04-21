@@ -314,3 +314,193 @@ footer {
     padding: 2rem;
     border-top: 1px solid #f0eeee;
 }
+
+.arrow {
+    display: none;
+    position: fixed;
+    right: 3rem;
+    bottom: 1.25rem;
+    background-color: #f0eeee;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.arrow:hover {
+    transform: scale(1.1);
+    transition: transform .3s ease-in-out;
+}
+
+.arrow i {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+@media (max-width: 1650px) {
+    .project {
+        padding: 5rem 10%;
+    }
+
+    .project-header h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-header span {
+        margin-top: 0.2rem;
+    }
+}
+
+@media (max-width: 1270px) {
+    .home>p {
+        width: 70%;
+    }
+
+    .about {
+        width: 70%;
+    }
+
+
+    .project {
+        padding: 5rem 5%;
+    }
+}
+
+@media (max-width: 1120px) {
+    .project {
+        padding: 5rem 20%;
+        display: block;
+    }
+
+    .project-content {
+        padding-top: 3rem;
+        padding-left: 0;
+    }
+    
+    .project-header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-content p {
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .project-buttons {
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        width: 90%;
+    }
+
+    .home>p {
+        width: 80%;
+        font-size: 1.5rem;
+        margin: 5rem auto;
+    }
+
+    .about {
+        width: 80%;
+    }
+
+    .project {
+        padding: 3rem 10%;
+    }
+
+    .send {
+        margin: 2rem auto 3rem auto;
+    }
+
+    .contact-form {
+        padding: 3rem 0;
+    }
+
+    .contact-form h3 {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav-left {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #f0eeee;
+    }
+
+    nav ul {
+        padding-inline-start: 0;
+    }
+
+    nav ul li:first-child {
+        margin-left: 0;
+    }
+
+    .nav-right {
+        justify-content: center;
+    }
+
+    .project {
+        padding: 3rem 1rem;
+    }
+
+    .laptop-image img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    *{
+        font-size: 12px;
+    }
+
+    .project-header {
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 365px) {
+    *{
+        font-size: 10px;
+    }
+
+    .project-header span {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 292px) {
+    header {
+        width: 100%;
+    }
+
+    .project-header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .project-header span {
+        margin: 0.5rem 0 auto 0;
+    }
+
+    .project-buttons {
+        flex-direction: column;
+    }
+
+    .project-buttons button {
+        margin-right: 0;
+        margin: 1rem auto;
+        width: 50%;
+    }
+}
